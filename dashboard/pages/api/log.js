@@ -2,16 +2,24 @@ import fs from "fs";
 import path from "path";
 
 export default function handler(req, res) {
-  const logPath = path.resolve(process.cwd(), "..", "agent_log.json");
+  // Try multiple paths for agent_log.json
+  const candidates = [
+    path.resolve(process.cwd(), "agent_log.json"),
+    path.resolve(process.cwd(), "..", "agent_log.json"),
+    path.resolve(process.cwd(), "data", "agent_log.json"),
+  ];
 
-  try {
-    if (fs.existsSync(logPath)) {
-      const data = JSON.parse(fs.readFileSync(logPath, "utf-8"));
-      res.status(200).json(data);
-    } else {
-      res.status(200).json([]);
+  for (const logPath of candidates) {
+    try {
+      if (fs.existsSync(logPath)) {
+        const data = JSON.parse(fs.readFileSync(logPath, "utf-8"));
+        return res.status(200).json(data);
+      }
+    } catch (err) {
+      continue;
     }
-  } catch (err) {
-    res.status(500).json({ error: "Failed to read agent log" });
   }
+
+  // Return empty array if no log found
+  res.status(200).json([]);
 }

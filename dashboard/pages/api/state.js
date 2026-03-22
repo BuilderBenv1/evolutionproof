@@ -2,16 +2,22 @@ import fs from "fs";
 import path from "path";
 
 export default function handler(req, res) {
-  const statePath = path.resolve(process.cwd(), "..", "agent_state.json");
+  const candidates = [
+    path.resolve(process.cwd(), "agent_state.json"),
+    path.resolve(process.cwd(), "..", "agent_state.json"),
+    path.resolve(process.cwd(), "data", "agent_state.json"),
+  ];
 
-  try {
-    if (fs.existsSync(statePath)) {
-      const data = JSON.parse(fs.readFileSync(statePath, "utf-8"));
-      res.status(200).json(data);
-    } else {
-      res.status(200).json({});
+  for (const statePath of candidates) {
+    try {
+      if (fs.existsSync(statePath)) {
+        const data = JSON.parse(fs.readFileSync(statePath, "utf-8"));
+        return res.status(200).json(data);
+      }
+    } catch (err) {
+      continue;
     }
-  } catch (err) {
-    res.status(500).json({ error: "Failed to read agent state" });
   }
+
+  res.status(200).json({});
 }
