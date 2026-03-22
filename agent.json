@@ -2,9 +2,9 @@
   "name": "EvolutionProof",
   "version": "1.0.0",
   "description": "Self-improving agent trust screener with verifiable on-chain improvement history",
-  "operator": "OPERATOR_WALLET_ADDRESS",
-  "erc8004_identity": "AGENT_ID",
-  "ens_name": "evolutionproof.eth",
+  "operator": "0xC71A15Fcb1149254F97059F6cf3f6Ed43990ebd4",
+  "erc8004_identity": "0xc71a15fcb1149254f97059f6cf3f6ed43990ebd4",
+  "ens_name": null,
   "capabilities": [
     "agent_screening",
     "self_improvement",

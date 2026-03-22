@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python tests/test_evaluator.py)",
+      "Bash(python tests/test_screener.py)",
+      "Bash(python tests/test_chain.py)",
+      "Bash(python scripts/register_identity.py)",
+      "WebSearch",
+      "WebFetch(domain:docs.filecoin.cloud)",
+      "WebFetch(domain:github.com)",
+      "Bash(pip install:*)",
+      "Bash(python -c \"from dotenv import load_dotenv; load_dotenv\\(\\); import os; key=os.getenv\\(''AGENTPROOF_API_KEY'',''''\\); print\\(f''Key length: {len\\(key\\)}''\\); print\\(f''Key starts: {key[:10]}...'' if len\\(key\\)>10 else f''Key: {key}''\\)\")",
+      "Bash(curl:*)",
+      "WebFetch(domain:oracle.agentproof.sh)",
+      "Bash(python scripts/run_agent.py --iterations 5 --no-resume)",
+      "Bash(python -c \":*)",
+      "Bash(rm -f agent_state.json)",
+      "Bash(rm -rf filecoin_logs)",
+      "Bash(python scripts/run_agent.py --iterations 10 --no-resume)",
+      "Bash(python scripts/run_agent.py --iterations 110 --no-resume)"
+    ]
+  }
+}

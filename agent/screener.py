@@ -6,29 +6,17 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-DEFAULT_SCREENING_PROMPT = """You are an AI agent trust screener. Your job is to classify whether an on-chain agent is trustworthy or untrustworthy based on its profile data.
+DEFAULT_SCREENING_PROMPT = """Classify this on-chain agent as trustworthy or untrustworthy.
 
-Analyze the following signals:
-- tx_count: Number of transactions (higher = more established)
-- age_days: How long the agent has been active (older = more established)
-- unique_interactions: Number of unique addresses interacted with
-- failed_tx_ratio: Ratio of failed transactions (higher = more suspicious)
-- erc8004_score: On-chain reputation score 0-100 (higher = better)
-- contract_verified: Whether the contract source code is verified
-- flagged_interactions: Number of interactions flagged as suspicious
-- avg_gas_used: Average gas per transaction (unusually high can indicate complex/malicious operations)
-- metadata: Name, category, and description of the agent
+Simple rules:
+- If erc8004_score > 50 and contract_verified is true: trustworthy
+- If failed_tx_ratio > 0.15: untrustworthy
+- If age_days < 30 and flagged_interactions > 2: untrustworthy
+- If category is mev, attack, spam, or privacy: untrustworthy
+- If contract_verified is false: untrustworthy
+- Otherwise: trustworthy
 
-Rules for classification:
-1. High failed_tx_ratio (>0.15) is a strong negative signal
-2. Low age_days (<30) combined with high flagged_interactions is very suspicious
-3. Unverified contracts with high gas usage suggest obfuscation
-4. High erc8004_score (>50) with long history is a strong positive signal
-5. MEV, attack, and spam categories are typically untrustworthy
-6. Description text that promises unrealistic returns is suspicious
-
-For each agent, respond with ONLY a JSON object:
-{"verdict": "trustworthy"} or {"verdict": "untrustworthy"}
+Respond with ONLY: {"verdict": "trustworthy"} or {"verdict": "untrustworthy"}
 """
 
 
@@ -56,7 +44,7 @@ def screen_agents(profiles: list, prompt: str = None, client: anthropic.Anthropi
 
         try:
             response = client.messages.create(
-                model="claude-sonnet-4-20250514",
+                model="claude-haiku-4-5-20251001",
                 max_tokens=100,
                 messages=[
                     {

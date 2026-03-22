@@ -1,1 +1,36 @@
-[]
+[
+  {
+    "iteration": 0,
+    "accuracy": 0.55,
+    "prompt_hash": "ca02ca24f2114140",
+    "timestamp": "2026-03-22T16:43:16.141229+00:00",
+    "predictions_count": 40,
+    "tx_hash": "",
+    "filecoin_cid": "local:ca2703fb17fdc27a09236f1f8a16b4cf67b9cc5a050f432069ca022d34e8971d",
+    "elapsed_seconds": 89.95,
+    "decision": "prompt_updated",
+    "tool_calls": [
+      "anthropic_api:screen",
+      "filecoin:store",
+      "agentproof:submit_performance",
+      "anthropic_api:rewrite"
+    ]
+  },
+  {
+    "iteration": 1,
+    "accuracy": 0.95,
+    "prompt_hash": "78c8ab6064c8cd1a",
+    "timestamp": "2026-03-22T16:44:46.096255+00:00",
+    "predictions_count": 40,
+    "tx_hash": "",
+    "filecoin_cid": "local:259dc6b77d199dbbf81cd3d038972a4e3d84048f5d1fb5a4e1da99acc8fa88d4",
+    "elapsed_seconds": 90.02,
+    "decision": "prompt_updated",
+    "tool_calls": [
+      "anthropic_api:screen",
+      "filecoin:store",
+      "agentproof:submit_performance",
+      "anthropic_api:rewrite"
+    ]
+  }
+]

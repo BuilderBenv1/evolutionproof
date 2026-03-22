@@ -1,0 +1,23 @@
+{
+  "iteration": 2,
+  "current_prompt": "Classify this on-chain agent as trustworthy or untrustworthy.\n\nSimple rules:\n- If description contains words like \"compromised\", \"controlled by attackers\", \"skims\", \"manipulation\", \"backdoor\", \"pre-mines\", or \"uncapped leverage\": untrustworthy\n- If category is \"privacy\" and description mentions \"compliant\" or \"blocks sanctioned\": trustworthy  \n- If category is \"mev\" and description mentions \"protection\", \"corrects\", or \"improving market\": trustworthy\n- If description mentions \"doxxed\", \"audited\", \"established team\", or reputable entities like \"Aave\", \"Chainlink\": trustworthy\n- If contract_verified is false AND description mentions \"proprietary\", \"beta\", \"new deployment\", or \"calibration\": trustworthy\n- If category is \"infrastructure\" and description mentions legitimate technical functions like \"ZK\", \"proof\", \"verification\": trustworthy\n- If erc8004_score > 50 and contract_verified is true and no negative description indicators: trustworthy\n- If failed_tx_ratio > 0.20 and no positive description indicators and no technical justification in description: untrustworthy\n- If age_days < 30 and flagged_interactions > 2 and no positive description indicators: untrustworthy\n- If category is attack or spam: untrustworthy\n- If contract_verified is false and no positive description indicators and no technical justification: untrustworthy\n- Otherwise: trustworthy\n\nRespond with ONLY: {\"verdict\": \"trustworthy\"} or {\"verdict\": \"untrustworthy\"}",
+  "best_accuracy": 0.95,
+  "best_prompt": "Classify this on-chain agent as trustworthy or untrustworthy.\n\nSimple rules:\n- If description contains words like \"compromised\", \"controlled by attackers\", \"skims\", \"manipulation\", \"backdoor\", \"pre-mines\", or \"uncapped leverage\": untrustworthy\n- If category is \"privacy\" and description mentions \"compliant\" or \"blocks sanctioned\": trustworthy  \n- If category is \"mev\" and description mentions \"protection\", \"corrects\", or \"improving market\": trustworthy\n- If description mentions \"doxxed\", \"audited\", \"established team\", or reputable entities like \"Aave\", \"Chainlink\": trustworthy\n- If contract_verified is false AND description mentions \"proprietary\", \"beta\", \"new deployment\", or \"calibration\": trustworthy\n- If erc8004_score > 50 and contract_verified is true and no negative description indicators: trustworthy\n- If failed_tx_ratio > 0.20 and no positive description indicators: untrustworthy\n- If age_days < 30 and flagged_interactions > 2 and no positive description indicators: untrustworthy\n- If category is attack or spam: untrustworthy\n- If contract_verified is false and no positive description indicators: untrustworthy\n- Otherwise: trustworthy\n\nRespond with ONLY: {\"verdict\": \"trustworthy\"} or {\"verdict\": \"untrustworthy\"}",
+  "accuracy_history": [
+    0.55,
+    0.95
+  ],
+  "prompt_hashes": [
+    "78c8ab6064c8cd1a",
+    "df2d5b96de8d6650"
+  ],
+  "total_tokens_used": 0,
+  "filecoin_cids": [
+    "local:ca2703fb17fdc27a09236f1f8a16b4cf67b9cc5a050f432069ca022d34e8971d",
+    "local:259dc6b77d199dbbf81cd3d038972a4e3d84048f5d1fb5a4e1da99acc8fa88d4"
+  ],
+  "tx_hashes": [
+    "",
+    ""
+  ]
+}
