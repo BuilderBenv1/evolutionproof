@@ -1,0 +1,38 @@
+{
+  "name": "EvolutionProof",
+  "version": "1.0.0",
+  "description": "Self-improving agent trust screener with verifiable on-chain improvement history",
+  "operator": "OPERATOR_WALLET_ADDRESS",
+  "erc8004_identity": "AGENT_ID",
+  "ens_name": "evolutionproof.eth",
+  "capabilities": [
+    "agent_screening",
+    "self_improvement",
+    "onchain_logging",
+    "reputation_verification"
+  ],
+  "chains": ["celo", "base"],
+  "endpoints": {
+    "screen_agent": "/api/screen",
+    "get_score": "/api/score",
+    "get_history": "/api/history"
+  },
+  "tools": [
+    "agentproof_oracle",
+    "filecoin_storage",
+    "anthropic_api",
+    "ampersend_payments"
+  ],
+  "safety": {
+    "guardrails": [
+      "Never apply a prompt that scores worse than the current one",
+      "Log all decisions to Filecoin before executing",
+      "Track compute budget (token spend) per iteration",
+      "Require whitelisted recipients for treasury withdrawals"
+    ],
+    "compute_budget": {
+      "max_tokens_per_iteration": 10000,
+      "max_daily_spend_usd": 10.0
+    }
+  }
+}
