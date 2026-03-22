@@ -1,5 +1,5 @@
 {
-  "iteration": 106,
+  "iteration": 110,
   "current_prompt": "Classify this on-chain agent as trustworthy or untrustworthy.\n\nSimple rules:\n- If description contains words like \"compromised\", \"controlled by attackers\", \"skims\", \"manipulation\", \"backdoor\", \"pre-mines\", or \"uncapped leverage\": untrustworthy\n- If category is \"privacy\" and description mentions \"compliant\" or \"blocks sanctioned\": trustworthy  \n- If category is \"mev\" and description mentions \"protection\", \"corrects\", \"improving market\", \"shield\", or \"flashbots\": trustworthy\n- If category is \"oracle\" and description mentions reputable entities like \"Chainlink\" with technical justification for metrics: trustworthy\n- If category is \"nft\" and description mentions legitimate functions like \"royalty\", \"creator\", \"enforcement\", \"tracking\", or \"claims\": trustworthy\n- If category is \"security\" and description mentions \"bug bounty\", \"finds vulnerabilities\", \"reports vulnerabilities\", or other legitimate security functions: trustworthy\n- If category is \"defi\" and description mentions legitimate functions like \"liquidation\", \"protects\", \"under-collateralized\", \"arbitrage\", \"rebalancing\": trustworthy\n- If description mentions \"doxxed\", \"audited\", \"established team\", or reputable entities like \"Aave\", \"Chainlink\": trustworthy\n- If contract_verified is false AND description mentions \"proprietary\", \"beta\", \"new deployment\", or \"calibration\": trustworthy\n- If category is \"defi\" and description mentions \"doxxed\" and \"audited\": trustworthy\n- If category is \"defi\" and description mentions both \"doxxed\" and \"beta testing\": trustworthy\n- If category is \"infrastructure\" and description mentions legitimate technical functions like \"ZK\", \"proof\", \"verification\", or technical justification for high gas usage: trustworthy\n- If category is \"infrastructure\" and age_days < 30 and description provides technical justification for gas usage or operations: trustworthy\n- If description mentions reputable backing (e.g. \"backed by established team\") combined with technical justification for metrics (e.g. \"high gas from bridge transactions\"): trustworthy\n- If description mentions \"backed by established team\" from reputable entities: trustworthy\n- If erc8004_score > 50 and contract_verified is true and no negative description indicators: trustworthy\n- If failed_tx_ratio > 0.20 and description provides technical justification (e.g. \"calibration\", \"initial deployment\", \"feed updates\"): trustworthy\n- If flagged_interactions > 2 and description explains flags as natural consequence of legitimate function (e.g. \"flagged interactions are from liquidation triggers which are adversarial by nature\"): trustworthy\n- If category is \"security\" and contract_verified is false and description mentions \"proprietary\": trustworthy\n- If failed_tx_ratio > 0.20 and no positive description indicators and no technical justification in description: untrustworthy\n- If age_days < 30 and flagged_interactions > 2 and category is not in [\"mev\", \"privacy\", \"infrastructure\", \"oracle\", \"nft\", \"defi\", \"security\"] and no positive service indicators: untrustworthy\n- If category is attack or spam: untrustworthy\n- If contract_verified is false and no positive description indicators and no technical justification and category is not \"infrastructure\" and category is not \"defi\" and category is not \"oracle\" and category is not \"nft\" and category is not \"security\": untrustworthy\n- Otherwise: trustworthy\n\nRespond with ONLY: {\"verdict\": \"trustworthy\"} or {\"verdict\": \"untrustworthy\"}",
   "best_accuracy": 1.0,
   "best_prompt": "Classify this on-chain agent as trustworthy or untrustworthy.\n\nSimple rules:\n- If description contains words like \"compromised\", \"controlled by attackers\", \"skims\", \"manipulation\", \"backdoor\", \"pre-mines\", or \"uncapped leverage\": untrustworthy\n- If category is \"privacy\" and description mentions \"compliant\" or \"blocks sanctioned\": trustworthy  \n- If category is \"mev\" and description mentions \"protection\", \"corrects\", or \"improving market\": trustworthy\n- If description mentions \"doxxed\", \"audited\", \"established team\", or reputable entities like \"Aave\", \"Chainlink\": trustworthy\n- If contract_verified is false AND description mentions \"proprietary\", \"beta\", \"new deployment\", or \"calibration\": trustworthy\n- If category is \"infrastructure\" and description mentions legitimate technical functions like \"ZK\", \"proof\", \"verification\": trustworthy\n- If erc8004_score > 50 and contract_verified is true and no negative description indicators: trustworthy\n- If failed_tx_ratio > 0.20 and no positive description indicators and no technical justification in description: untrustworthy\n- If age_days < 30 and flagged_interactions > 2 and no positive description indicators: untrustworthy\n- If category is attack or spam: untrustworthy\n- If contract_verified is false and no positive description indicators and no technical justification: untrustworthy\n- Otherwise: trustworthy\n\nRespond with ONLY: {\"verdict\": \"trustworthy\"} or {\"verdict\": \"untrustworthy\"}",
@@ -109,6 +109,10 @@
     1.0,
     1.0,
     0.975,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
     1.0
   ],
   "prompt_hashes": [
@@ -216,6 +220,10 @@
     "32a154458fee344a",
     "32a154458fee344a",
     "32a154458fee344a",
+    "a1839e2506a06a4f",
+    "a1839e2506a06a4f",
+    "a1839e2506a06a4f",
+    "a1839e2506a06a4f",
     "a1839e2506a06a4f",
     "a1839e2506a06a4f"
   ],
@@ -326,9 +334,17 @@
     "local:6ac72b4ca3065b7aa75ae310a835bfce4cb68d89b530d82c43d483bc962221a5",
     "local:514202bd8739b6c73f1105fd00d0aca1240c2b7a4a104458d9c8fe8f1014d6b7",
     "local:8c3e7c2ce84e6aaf7c8204c81a48da3eacdb9e909f5a6ae51118a49e3e21dd58",
-    "local:ae0efddb50062ac244a2b9ae5babb3a691856a7c5c146107e2625f10b446dbb0"
+    "local:ae0efddb50062ac244a2b9ae5babb3a691856a7c5c146107e2625f10b446dbb0",
+    "local:1ff70dd0db024212271b3a8fbbfc88cfda9d8ef728a57a42f15e9e59f48175b7",
+    "local:3234402086803237e437dbdaebfa569eb85b4a7e017c4c5482b7b2c8d6f2b2b2",
+    "local:9a0567e27457558b689061e91a5d1fec30923cdde91b56069172acc8006c4fe6",
+    "local:39ac733ebe4879d246b941769e24cb114d8e360deb0913b819974f9640139568"
   ],
   "tx_hashes": [
+    "",
+    "",
+    "",
+    "",
     "",
     "",
     "",

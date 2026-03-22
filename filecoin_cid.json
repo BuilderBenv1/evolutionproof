@@ -1,0 +1,7 @@
+{
+  "cid": "QmWVcV45rcJXFDWvgEL18TWdAqH6jZVk1VcrqEx3tdxxeA",
+  "gateway_url": "https://gateway.lighthouse.storage/ipfs/QmWVcV45rcJXFDWvgEL18TWdAqH6jZVk1VcrqEx3tdxxeA",
+  "iterations": 111,
+  "network": "filecoin-mainnet-via-lighthouse",
+  "storage_provider": "lighthouse.storage"
+}

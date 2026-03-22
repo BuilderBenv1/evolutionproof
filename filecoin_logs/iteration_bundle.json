@@ -1,0 +1,1997 @@
+{
+  "agent": "EvolutionProof",
+  "description": "Self-improving agent trust screener - iteration improvement logs",
+  "operator": "0xC71A15Fcb1149254F97059F6cf3f6Ed43990ebd4",
+  "total_iterations": 111,
+  "logs": [
+    {
+      "iteration": 0,
+      "accuracy": 0.55,
+      "prompt_hash": "ca02ca24f2114140",
+      "timestamp": "2026-03-22T16:43:16.141229+00:00",
+      "predictions_count": 40,
+      "tx_hash": null,
+      "filecoin_cid": null
+    },
+    {
+      "iteration": 1,
+      "accuracy": 0.95,
+      "prompt_hash": "78c8ab6064c8cd1a",
+      "timestamp": "2026-03-22T16:44:46.096255+00:00",
+      "predictions_count": 40,
+      "tx_hash": null,
+      "filecoin_cid": null
+    },
+    {
+      "iteration": 2,
+      "accuracy": 1.0,
+      "prompt_hash": "df2d5b96de8d6650",
+      "timestamp": "2026-03-22T16:46:16.126520+00:00",
+      "predictions_count": 40,
+      "tx_hash": null,
+      "filecoin_cid": null
+    },
+    {
+      "iteration": 3,
+      "accuracy": 1.0,
+      "prompt_hash": "df2d5b96de8d6650",
+      "timestamp": "2026-03-22T16:47:04.430105+00:00",
+      "predictions_count": 40,
+      "tx_hash": null,
+      "filecoin_cid": null
+    },
+    {
+      "iteration": 4,
+      "accuracy": 1.0,
+      "prompt_hash": "df2d5b96de8d6650",
+      "timestamp": "2026-03-22T16:47:49.687265+00:00",
+      "predictions_count": 40,
+      "tx_hash": null,
+      "filecoin_cid": null
+    },
+    {
+      "iteration": 5,
+      "accuracy": 0.975,
+      "prompt_hash": "df2d5b96de8d6650",
+      "timestamp": "2026-03-22T16:48:26.168314+00:00",
+      "predictions_count": 40,
+      "tx_hash": null,
+      "filecoin_cid": null
+    },
+    {
+      "iteration": 6,
+      "accuracy": 1.0,
+      "prompt_hash": "e4bcddfdb822350b",
+      "timestamp": "2026-03-22T16:49:48.317416+00:00",
+      "predictions_count": 40,
+      "tx_hash": null,
+      "filecoin_cid": null
+    },
+    {
+      "iteration": 7,
+      "accuracy": 1.0,
+      "prompt_hash": "e4bcddfdb822350b",
+      "timestamp": "2026-03-22T16:50:25.572328+00:00",
+      "predictions_count": 40,
+      "tx_hash": null,
+      "filecoin_cid": null
+    },
+    {
+      "iteration": 8,
+      "accuracy": 1.0,
+      "prompt_hash": "e4bcddfdb822350b",
+      "timestamp": "2026-03-22T16:51:00.854682+00:00",
+      "predictions_count": 40,
+      "tx_hash": null,
+      "filecoin_cid": null
+    },
+    {
+      "iteration": 9,
+      "accuracy": 0.975,
+      "prompt_hash": "e4bcddfdb822350b",
+      "timestamp": "2026-03-22T16:51:38.774864+00:00",
+      "predictions_count": 40,
+      "tx_hash": null,
+      "filecoin_cid": null
+    },
+    {
+      "iteration": 10,
+      "accuracy": 1.0,
+      "prompt_hash": "e4bcddfdb822350b",
+      "timestamp": "2026-03-22T16:52:58.708014+00:00",
+      "predictions_count": 40,
+      "tx_hash": null,
+      "filecoin_cid": null
+    },
+    {
+      "iteration": 11,
+      "accuracy": 1.0,
+      "prompt_hash": "e4bcddfdb822350b",
+      "timestamp": "2026-03-22T16:53:38.768316+00:00",
+      "predictions_count": 40,
+      "tx_hash": null,
+      "filecoin_cid": null
+    },
+    {
+      "iteration": 12,
+      "accuracy": 1.0,
+      "prompt_hash": "e4bcddfdb822350b",
+      "timestamp": "2026-03-22T16:54:17.528307+00:00",
+      "predictions_count": 40,
+      "tx_hash": null,
+      "filecoin_cid": null
+    },
+    {
+      "iteration": 13,
+      "accuracy": 0.975,
+      "prompt_hash": "e4bcddfdb822350b",
+      "timestamp": "2026-03-22T16:54:59.991900+00:00",
+      "predictions_count": 40,
+      "tx_hash": null,
+      "filecoin_cid": null
+    },
+    {
+      "iteration": 14,
+      "accuracy": 1.0,
+      "prompt_hash": "1934faa09f6bf5d0",
+      "timestamp": "2026-03-22T16:56:18.286968+00:00",
+      "predictions_count": 40,
+      "tx_hash": null,
+      "filecoin_cid": null
+    },
+    {
+      "iteration": 15,
+      "accuracy": 1.0,
+      "prompt_hash": "1934faa09f6bf5d0",
+      "timestamp": "2026-03-22T16:56:59.647305+00:00",
+      "predictions_count": 40,
+      "tx_hash": null,
+      "filecoin_cid": null
+    },
+    {
+      "iteration": 16,
+      "accuracy": 0.95,
+      "prompt_hash": "1934faa09f6bf5d0",
+      "timestamp": "2026-03-22T16:57:51.238059+00:00",
+      "predictions_count": 40,
+      "tx_hash": null,
+      "filecoin_cid": null
+    },
+    {
+      "iteration": 17,
+      "accuracy": 1.0,
+      "prompt_hash": "3aac99ad0829ba06",
+      "timestamp": "2026-03-22T16:59:11.947722+00:00",
+      "predictions_count": 40,
+      "tx_hash": null,
+      "filecoin_cid": null
+    },
+    {
+      "iteration": 18,
+      "accuracy": 1.0,
+      "prompt_hash": "3aac99ad0829ba06",
+      "timestamp": "2026-03-22T16:59:47.528049+00:00",
+      "predictions_count": 40,
+      "tx_hash": null,
+      "filecoin_cid": null
+    },
+    {
+      "iteration": 19,
+      "accuracy": 1.0,
+      "prompt_hash": "3aac99ad0829ba06",
+      "timestamp": "2026-03-22T17:00:28.014957+00:00",
+      "predictions_count": 40,
+      "tx_hash": null,
+      "filecoin_cid": null
+    },
+    {
+      "iteration": 20,
+      "accuracy": 1.0,
+      "prompt_hash": "3aac99ad0829ba06",
+      "timestamp": "2026-03-22T17:01:11.954605+00:00",
+      "predictions_count": 40,
+      "tx_hash": null,
+      "filecoin_cid": null
+    },
+    {
+      "iteration": 21,
+      "accuracy": 1.0,
+      "prompt_hash": "3aac99ad0829ba06",
+      "timestamp": "2026-03-22T17:01:52.875598+00:00",
+      "predictions_count": 40,
+      "tx_hash": null,
+      "filecoin_cid": null
+    },
+    {
+      "iteration": 22,
+      "accuracy": 1.0,
+      "prompt_hash": "3aac99ad0829ba06",
+      "timestamp": "2026-03-22T17:02:33.371881+00:00",
+      "predictions_count": 40,
+      "tx_hash": null,
+      "filecoin_cid": null
+    },
+    {
+      "iteration": 23,
+      "accuracy": 0.975,
+      "prompt_hash": "3aac99ad0829ba06",
+      "timestamp": "2026-03-22T17:03:17.748202+00:00",
+      "predictions_count": 40,
+      "tx_hash": null,
+      "filecoin_cid": null
+    },
+    {
+      "iteration": 24,
+      "accuracy": 1.0,
+      "prompt_hash": "c9f88d159424f144",
+      "timestamp": "2026-03-22T17:04:42.595475+00:00",
+      "predictions_count": 40,
+      "tx_hash": null,
+      "filecoin_cid": null
+    },
+    {
+      "iteration": 25,
+      "accuracy": 1.0,
+      "prompt_hash": "c9f88d159424f144",
+      "timestamp": "2026-03-22T17:05:22.237868+00:00",
+      "predictions_count": 40,
+      "tx_hash": null,
+      "filecoin_cid": null
+    },
+    {
+      "iteration": 26,
+      "accuracy": 1.0,
+      "prompt_hash": "c9f88d159424f144",
+      "timestamp": "2026-03-22T17:06:02.392097+00:00",
+      "predictions_count": 40,
+      "tx_hash": null,
+      "filecoin_cid": null
+    },
+    {
+      "iteration": 27,
+      "accuracy": 1.0,
+      "prompt_hash": "c9f88d159424f144",
+      "timestamp": "2026-03-22T17:06:47.653430+00:00",
+      "predictions_count": 40,
+      "tx_hash": null,
+      "filecoin_cid": null
+    },
+    {
+      "iteration": 28,
+      "accuracy": 0.975,
+      "prompt_hash": "c9f88d159424f144",
+      "timestamp": "2026-03-22T17:07:28.946005+00:00",
+      "predictions_count": 40,
+      "tx_hash": null,
+      "filecoin_cid": null
+    },
+    {
+      "iteration": 29,
+      "accuracy": 1.0,
+      "prompt_hash": "91cb2d56928cbc94",
+      "timestamp": "2026-03-22T17:08:54.804612+00:00",
+      "predictions_count": 40,
+      "tx_hash": null,
+      "filecoin_cid": null
+    },
+    {
+      "iteration": 30,
+      "accuracy": 1.0,
+      "prompt_hash": "91cb2d56928cbc94",
+      "timestamp": "2026-03-22T17:09:40.924110+00:00",
+      "predictions_count": 40,
+      "tx_hash": null,
+      "filecoin_cid": null
+    },
+    {
+      "iteration": 31,
+      "accuracy": 1.0,
+      "prompt_hash": "91cb2d56928cbc94",
+      "timestamp": "2026-03-22T17:10:30.705452+00:00",
+      "predictions_count": 40,
+      "tx_hash": null,
+      "filecoin_cid": null
+    },
+    {
+      "iteration": 32,
+      "accuracy": 1.0,
+      "prompt_hash": "91cb2d56928cbc94",
+      "timestamp": "2026-03-22T17:11:10.682731+00:00",
+      "predictions_count": 40,
+      "tx_hash": null,
+      "filecoin_cid": null
+    },
+    {
+      "iteration": 33,
+      "accuracy": 1.0,
+      "prompt_hash": "91cb2d56928cbc94",
+      "timestamp": "2026-03-22T17:11:48.182776+00:00",
+      "predictions_count": 40,
+      "tx_hash": null,
+      "filecoin_cid": null
+    },
+    {
+      "iteration": 34,
+      "accuracy": 1.0,
+      "prompt_hash": "91cb2d56928cbc94",
+      "timestamp": "2026-03-22T17:12:28.370649+00:00",
+      "predictions_count": 40,
+      "tx_hash": null,
+      "filecoin_cid": null
+    },
+    {
+      "iteration": 35,
+      "accuracy": 0.975,
+      "prompt_hash": "91cb2d56928cbc94",
+      "timestamp": "2026-03-22T17:13:11.684142+00:00",
+      "predictions_count": 40,
+      "tx_hash": null,
+      "filecoin_cid": null
+    },
+    {
+      "iteration": 36,
+      "accuracy": 1.0,
+      "prompt_hash": "859d4f4eff0eef81",
+      "timestamp": "2026-03-22T17:15:01.472200+00:00",
+      "predictions_count": 40,
+      "tx_hash": null,
+      "filecoin_cid": null
+    },
+    {
+      "iteration": 37,
+      "accuracy": 1.0,
+      "prompt_hash": "859d4f4eff0eef81",
+      "timestamp": "2026-03-22T17:15:40.991638+00:00",
+      "predictions_count": 40,
+      "tx_hash": null,
+      "filecoin_cid": null
+    },
+    {
+      "iteration": 38,
+      "accuracy": 1.0,
+      "prompt_hash": "859d4f4eff0eef81",
+      "timestamp": "2026-03-22T17:16:23.000953+00:00",
+      "predictions_count": 40,
+      "tx_hash": null,
+      "filecoin_cid": null
+    },
+    {
+      "iteration": 39,
+      "accuracy": 1.0,
+      "prompt_hash": "859d4f4eff0eef81",
+      "timestamp": "2026-03-22T17:17:02.167696+00:00",
+      "predictions_count": 40,
+      "tx_hash": null,
+      "filecoin_cid": null
+    },
+    {
+      "iteration": 40,
+      "accuracy": 0.975,
+      "prompt_hash": "859d4f4eff0eef81",
+      "timestamp": "2026-03-22T17:17:40.072800+00:00",
+      "predictions_count": 40,
+      "tx_hash": null,
+      "filecoin_cid": null
+    },
+    {
+      "iteration": 41,
+      "accuracy": 1.0,
+      "prompt_hash": "04e1df2f06bae644",
+      "timestamp": "2026-03-22T17:18:58.839809+00:00",
+      "predictions_count": 40,
+      "tx_hash": null,
+      "filecoin_cid": null
+    },
+    {
+      "iteration": 42,
+      "accuracy": 1.0,
+      "prompt_hash": "04e1df2f06bae644",
+      "timestamp": "2026-03-22T17:19:43.618258+00:00",
+      "predictions_count": 40,
+      "tx_hash": null,
+      "filecoin_cid": null
+    },
+    {
+      "iteration": 43,
+      "accuracy": 1.0,
+      "prompt_hash": "04e1df2f06bae644",
+      "timestamp": "2026-03-22T17:20:25.570534+00:00",
+      "predictions_count": 40,
+      "tx_hash": null,
+      "filecoin_cid": null
+    },
+    {
+      "iteration": 44,
+      "accuracy": 1.0,
+      "prompt_hash": "04e1df2f06bae644",
+      "timestamp": "2026-03-22T17:21:04.837334+00:00",
+      "predictions_count": 40,
+      "tx_hash": null,
+      "filecoin_cid": null
+    },
+    {
+      "iteration": 45,
+      "accuracy": 1.0,
+      "prompt_hash": "04e1df2f06bae644",
+      "timestamp": "2026-03-22T17:21:40.635520+00:00",
+      "predictions_count": 40,
+      "tx_hash": null,
+      "filecoin_cid": null
+    },
+    {
+      "iteration": 46,
+      "accuracy": 1.0,
+      "prompt_hash": "04e1df2f06bae644",
+      "timestamp": "2026-03-22T17:22:20.691394+00:00",
+      "predictions_count": 40,
+      "tx_hash": null,
+      "filecoin_cid": null
+    },
+    {
+      "iteration": 47,
+      "accuracy": 1.0,
+      "prompt_hash": "04e1df2f06bae644",
+      "timestamp": "2026-03-22T17:23:06.317478+00:00",
+      "predictions_count": 40,
+      "tx_hash": null,
+      "filecoin_cid": null
+    },
+    {
+      "iteration": 48,
+      "accuracy": 1.0,
+      "prompt_hash": "04e1df2f06bae644",
+      "timestamp": "2026-03-22T17:23:49.588150+00:00",
+      "predictions_count": 40,
+      "tx_hash": null,
+      "filecoin_cid": null
+    },
+    {
+      "iteration": 49,
+      "accuracy": 1.0,
+      "prompt_hash": "04e1df2f06bae644",
+      "timestamp": "2026-03-22T17:24:30.962984+00:00",
+      "predictions_count": 40,
+      "tx_hash": null,
+      "filecoin_cid": null
+    },
+    {
+      "iteration": 50,
+      "accuracy": 1.0,
+      "prompt_hash": "04e1df2f06bae644",
+      "timestamp": "2026-03-22T17:25:14.307783+00:00",
+      "predictions_count": 40,
+      "tx_hash": null,
+      "filecoin_cid": null
+    },
+    {
+      "iteration": 51,
+      "accuracy": 0.975,
+      "prompt_hash": "04e1df2f06bae644",
+      "timestamp": "2026-03-22T17:25:56.098320+00:00",
+      "predictions_count": 40,
+      "tx_hash": null,
+      "filecoin_cid": null
+    },
+    {
+      "iteration": 52,
+      "accuracy": 1.0,
+      "prompt_hash": "f336da576acc7407",
+      "timestamp": "2026-03-22T17:27:25.826624+00:00",
+      "predictions_count": 40,
+      "tx_hash": null,
+      "filecoin_cid": null
+    },
+    {
+      "iteration": 53,
+      "accuracy": 1.0,
+      "prompt_hash": "f336da576acc7407",
+      "timestamp": "2026-03-22T17:28:11.695033+00:00",
+      "predictions_count": 40,
+      "tx_hash": null,
+      "filecoin_cid": null
+    },
+    {
+      "iteration": 54,
+      "accuracy": 1.0,
+      "prompt_hash": "f336da576acc7407",
+      "timestamp": "2026-03-22T17:28:53.269120+00:00",
+      "predictions_count": 40,
+      "tx_hash": null,
+      "filecoin_cid": null
+    },
+    {
+      "iteration": 55,
+      "accuracy": 0.975,
+      "prompt_hash": "f336da576acc7407",
+      "timestamp": "2026-03-22T17:29:29.491354+00:00",
+      "predictions_count": 40,
+      "tx_hash": null,
+      "filecoin_cid": null
+    },
+    {
+      "iteration": 56,
+      "accuracy": 1.0,
+      "prompt_hash": "c4eac61007e9a6cb",
+      "timestamp": "2026-03-22T17:30:55.406734+00:00",
+      "predictions_count": 40,
+      "tx_hash": null,
+      "filecoin_cid": null
+    },
+    {
+      "iteration": 57,
+      "accuracy": 1.0,
+      "prompt_hash": "c4eac61007e9a6cb",
+      "timestamp": "2026-03-22T17:31:41.403057+00:00",
+      "predictions_count": 40,
+      "tx_hash": null,
+      "filecoin_cid": null
+    },
+    {
+      "iteration": 58,
+      "accuracy": 1.0,
+      "prompt_hash": "c4eac61007e9a6cb",
+      "timestamp": "2026-03-22T17:32:23.520631+00:00",
+      "predictions_count": 40,
+      "tx_hash": null,
+      "filecoin_cid": null
+    },
+    {
+      "iteration": 59,
+      "accuracy": 1.0,
+      "prompt_hash": "c4eac61007e9a6cb",
+      "timestamp": "2026-03-22T17:33:06.038344+00:00",
+      "predictions_count": 40,
+      "tx_hash": null,
+      "filecoin_cid": null
+    },
+    {
+      "iteration": 60,
+      "accuracy": 1.0,
+      "prompt_hash": "c4eac61007e9a6cb",
+      "timestamp": "2026-03-22T17:33:46.352501+00:00",
+      "predictions_count": 40,
+      "tx_hash": null,
+      "filecoin_cid": null
+    },
+    {
+      "iteration": 61,
+      "accuracy": 1.0,
+      "prompt_hash": "c4eac61007e9a6cb",
+      "timestamp": "2026-03-22T17:34:22.743376+00:00",
+      "predictions_count": 40,
+      "tx_hash": null,
+      "filecoin_cid": null
+    },
+    {
+      "iteration": 62,
+      "accuracy": 1.0,
+      "prompt_hash": "c4eac61007e9a6cb",
+      "timestamp": "2026-03-22T17:35:02.552073+00:00",
+      "predictions_count": 40,
+      "tx_hash": null,
+      "filecoin_cid": null
+    },
+    {
+      "iteration": 63,
+      "accuracy": 1.0,
+      "prompt_hash": "c4eac61007e9a6cb",
+      "timestamp": "2026-03-22T17:35:49.842750+00:00",
+      "predictions_count": 40,
+      "tx_hash": null,
+      "filecoin_cid": null
+    },
+    {
+      "iteration": 64,
+      "accuracy": 1.0,
+      "prompt_hash": "c4eac61007e9a6cb",
+      "timestamp": "2026-03-22T17:36:30.108493+00:00",
+      "predictions_count": 40,
+      "tx_hash": null,
+      "filecoin_cid": null
+    },
+    {
+      "iteration": 65,
+      "accuracy": 1.0,
+      "prompt_hash": "c4eac61007e9a6cb",
+      "timestamp": "2026-03-22T17:37:19.621671+00:00",
+      "predictions_count": 40,
+      "tx_hash": null,
+      "filecoin_cid": null
+    },
+    {
+      "iteration": 66,
+      "accuracy": 1.0,
+      "prompt_hash": "c4eac61007e9a6cb",
+      "timestamp": "2026-03-22T17:38:00.825850+00:00",
+      "predictions_count": 40,
+      "tx_hash": null,
+      "filecoin_cid": null
+    },
+    {
+      "iteration": 67,
+      "accuracy": 1.0,
+      "prompt_hash": "c4eac61007e9a6cb",
+      "timestamp": "2026-03-22T17:38:38.523533+00:00",
+      "predictions_count": 40,
+      "tx_hash": null,
+      "filecoin_cid": null
+    },
+    {
+      "iteration": 68,
+      "accuracy": 1.0,
+      "prompt_hash": "c4eac61007e9a6cb",
+      "timestamp": "2026-03-22T17:39:19.736645+00:00",
+      "predictions_count": 40,
+      "tx_hash": null,
+      "filecoin_cid": null
+    },
+    {
+      "iteration": 69,
+      "accuracy": 1.0,
+      "prompt_hash": "c4eac61007e9a6cb",
+      "timestamp": "2026-03-22T17:40:14.175062+00:00",
+      "predictions_count": 40,
+      "tx_hash": null,
+      "filecoin_cid": null
+    },
+    {
+      "iteration": 70,
+      "accuracy": 1.0,
+      "prompt_hash": "c4eac61007e9a6cb",
+      "timestamp": "2026-03-22T17:40:49.854610+00:00",
+      "predictions_count": 40,
+      "tx_hash": null,
+      "filecoin_cid": null
+    },
+    {
+      "iteration": 71,
+      "accuracy": 1.0,
+      "prompt_hash": "c4eac61007e9a6cb",
+      "timestamp": "2026-03-22T17:41:34.598699+00:00",
+      "predictions_count": 40,
+      "tx_hash": null,
+      "filecoin_cid": null
+    },
+    {
+      "iteration": 72,
+      "accuracy": 1.0,
+      "prompt_hash": "c4eac61007e9a6cb",
+      "timestamp": "2026-03-22T17:42:17.782312+00:00",
+      "predictions_count": 40,
+      "tx_hash": null,
+      "filecoin_cid": null
+    },
+    {
+      "iteration": 73,
+      "accuracy": 1.0,
+      "prompt_hash": "c4eac61007e9a6cb",
+      "timestamp": "2026-03-22T17:43:00.197584+00:00",
+      "predictions_count": 40,
+      "tx_hash": null,
+      "filecoin_cid": null
+    },
+    {
+      "iteration": 74,
+      "accuracy": 1.0,
+      "prompt_hash": "c4eac61007e9a6cb",
+      "timestamp": "2026-03-22T17:43:38.649836+00:00",
+      "predictions_count": 40,
+      "tx_hash": null,
+      "filecoin_cid": null
+    },
+    {
+      "iteration": 75,
+      "accuracy": 1.0,
+      "prompt_hash": "c4eac61007e9a6cb",
+      "timestamp": "2026-03-22T17:44:18.892630+00:00",
+      "predictions_count": 40,
+      "tx_hash": null,
+      "filecoin_cid": null
+    },
+    {
+      "iteration": 76,
+      "accuracy": 1.0,
+      "prompt_hash": "c4eac61007e9a6cb",
+      "timestamp": "2026-03-22T17:44:58.532549+00:00",
+      "predictions_count": 40,
+      "tx_hash": null,
+      "filecoin_cid": null
+    },
+    {
+      "iteration": 77,
+      "accuracy": 1.0,
+      "prompt_hash": "c4eac61007e9a6cb",
+      "timestamp": "2026-03-22T17:45:36.650669+00:00",
+      "predictions_count": 40,
+      "tx_hash": null,
+      "filecoin_cid": null
+    },
+    {
+      "iteration": 78,
+      "accuracy": 1.0,
+      "prompt_hash": "c4eac61007e9a6cb",
+      "timestamp": "2026-03-22T17:46:12.488286+00:00",
+      "predictions_count": 40,
+      "tx_hash": null,
+      "filecoin_cid": null
+    },
+    {
+      "iteration": 79,
+      "accuracy": 1.0,
+      "prompt_hash": "c4eac61007e9a6cb",
+      "timestamp": "2026-03-22T17:46:51.313535+00:00",
+      "predictions_count": 40,
+      "tx_hash": null,
+      "filecoin_cid": null
+    },
+    {
+      "iteration": 80,
+      "accuracy": 1.0,
+      "prompt_hash": "c4eac61007e9a6cb",
+      "timestamp": "2026-03-22T17:47:27.267939+00:00",
+      "predictions_count": 40,
+      "tx_hash": null,
+      "filecoin_cid": null
+    },
+    {
+      "iteration": 81,
+      "accuracy": 1.0,
+      "prompt_hash": "c4eac61007e9a6cb",
+      "timestamp": "2026-03-22T17:48:13.417336+00:00",
+      "predictions_count": 40,
+      "tx_hash": null,
+      "filecoin_cid": null
+    },
+    {
+      "iteration": 82,
+      "accuracy": 1.0,
+      "prompt_hash": "c4eac61007e9a6cb",
+      "timestamp": "2026-03-22T17:48:50.615804+00:00",
+      "predictions_count": 40,
+      "tx_hash": null,
+      "filecoin_cid": null
+    },
+    {
+      "iteration": 83,
+      "accuracy": 1.0,
+      "prompt_hash": "c4eac61007e9a6cb",
+      "timestamp": "2026-03-22T17:49:44.235726+00:00",
+      "predictions_count": 40,
+      "tx_hash": null,
+      "filecoin_cid": null
+    },
+    {
+      "iteration": 84,
+      "accuracy": 1.0,
+      "prompt_hash": "c4eac61007e9a6cb",
+      "timestamp": "2026-03-22T17:50:23.995825+00:00",
+      "predictions_count": 40,
+      "tx_hash": null,
+      "filecoin_cid": null
+    },
+    {
+      "iteration": 85,
+      "accuracy": 1.0,
+      "prompt_hash": "c4eac61007e9a6cb",
+      "timestamp": "2026-03-22T17:51:05.160748+00:00",
+      "predictions_count": 40,
+      "tx_hash": null,
+      "filecoin_cid": null
+    },
+    {
+      "iteration": 86,
+      "accuracy": 0.975,
+      "prompt_hash": "c4eac61007e9a6cb",
+      "timestamp": "2026-03-22T17:51:51.555217+00:00",
+      "predictions_count": 40,
+      "tx_hash": null,
+      "filecoin_cid": null
+    },
+    {
+      "iteration": 87,
+      "accuracy": 1.0,
+      "prompt_hash": "47fad7dff2604b5d",
+      "timestamp": "2026-03-22T17:53:12.018784+00:00",
+      "predictions_count": 40,
+      "tx_hash": null,
+      "filecoin_cid": null
+    },
+    {
+      "iteration": 88,
+      "accuracy": 1.0,
+      "prompt_hash": "47fad7dff2604b5d",
+      "timestamp": "2026-03-22T17:53:50.305666+00:00",
+      "predictions_count": 40,
+      "tx_hash": null,
+      "filecoin_cid": null
+    },
+    {
+      "iteration": 89,
+      "accuracy": 0.975,
+      "prompt_hash": "47fad7dff2604b5d",
+      "timestamp": "2026-03-22T17:54:32.056549+00:00",
+      "predictions_count": 40,
+      "tx_hash": null,
+      "filecoin_cid": null
+    },
+    {
+      "iteration": 90,
+      "accuracy": 1.0,
+      "prompt_hash": "71f5f2791a896056",
+      "timestamp": "2026-03-22T17:55:56.384348+00:00",
+      "predictions_count": 40,
+      "tx_hash": null,
+      "filecoin_cid": null
+    },
+    {
+      "iteration": 91,
+      "accuracy": 1.0,
+      "prompt_hash": "71f5f2791a896056",
+      "timestamp": "2026-03-22T17:56:36.356366+00:00",
+      "predictions_count": 40,
+      "tx_hash": null,
+      "filecoin_cid": null
+    },
+    {
+      "iteration": 92,
+      "accuracy": 0.975,
+      "prompt_hash": "71f5f2791a896056",
+      "timestamp": "2026-03-22T17:57:12.611967+00:00",
+      "predictions_count": 40,
+      "tx_hash": null,
+      "filecoin_cid": null
+    },
+    {
+      "iteration": 93,
+      "accuracy": 1.0,
+      "prompt_hash": "afcfb2de40738fd9",
+      "timestamp": "2026-03-22T17:58:37.958298+00:00",
+      "predictions_count": 40,
+      "tx_hash": null,
+      "filecoin_cid": null
+    },
+    {
+      "iteration": 94,
+      "accuracy": 1.0,
+      "prompt_hash": "afcfb2de40738fd9",
+      "timestamp": "2026-03-22T17:59:18.564153+00:00",
+      "predictions_count": 40,
+      "tx_hash": null,
+      "filecoin_cid": null
+    },
+    {
+      "iteration": 95,
+      "accuracy": 1.0,
+      "prompt_hash": "afcfb2de40738fd9",
+      "timestamp": "2026-03-22T17:59:57.679401+00:00",
+      "predictions_count": 40,
+      "tx_hash": null,
+      "filecoin_cid": null
+    },
+    {
+      "iteration": 96,
+      "accuracy": 1.0,
+      "prompt_hash": "afcfb2de40738fd9",
+      "timestamp": "2026-03-22T18:00:34.388875+00:00",
+      "predictions_count": 40,
+      "tx_hash": null,
+      "filecoin_cid": null
+    },
+    {
+      "iteration": 97,
+      "accuracy": 1.0,
+      "prompt_hash": "afcfb2de40738fd9",
+      "timestamp": "2026-03-22T18:01:08.928404+00:00",
+      "predictions_count": 40,
+      "tx_hash": null,
+      "filecoin_cid": null
+    },
+    {
+      "iteration": 98,
+      "accuracy": 1.0,
+      "prompt_hash": "afcfb2de40738fd9",
+      "timestamp": "2026-03-22T18:01:49.961666+00:00",
+      "predictions_count": 40,
+      "tx_hash": null,
+      "filecoin_cid": null
+    },
+    {
+      "iteration": 99,
+      "accuracy": 0.975,
+      "prompt_hash": "afcfb2de40738fd9",
+      "timestamp": "2026-03-22T18:02:29.167367+00:00",
+      "predictions_count": 40,
+      "tx_hash": null,
+      "filecoin_cid": null
+    },
+    {
+      "iteration": 100,
+      "accuracy": 1.0,
+      "prompt_hash": "32a154458fee344a",
+      "timestamp": "2026-03-22T18:03:58.556944+00:00",
+      "predictions_count": 40,
+      "tx_hash": null,
+      "filecoin_cid": null
+    },
+    {
+      "iteration": 101,
+      "accuracy": 1.0,
+      "prompt_hash": "32a154458fee344a",
+      "timestamp": "2026-03-22T18:04:36.524853+00:00",
+      "predictions_count": 40,
+      "tx_hash": null,
+      "filecoin_cid": null
+    },
+    {
+      "iteration": 102,
+      "accuracy": 1.0,
+      "prompt_hash": "32a154458fee344a",
+      "timestamp": "2026-03-22T18:05:22.795702+00:00",
+      "predictions_count": 40,
+      "tx_hash": null,
+      "filecoin_cid": null
+    },
+    {
+      "iteration": 103,
+      "accuracy": 1.0,
+      "prompt_hash": "32a154458fee344a",
+      "timestamp": "2026-03-22T18:06:04.013580+00:00",
+      "predictions_count": 40,
+      "tx_hash": null,
+      "filecoin_cid": null
+    },
+    {
+      "iteration": 104,
+      "accuracy": 0.975,
+      "prompt_hash": "32a154458fee344a",
+      "timestamp": "2026-03-22T18:06:41.033790+00:00",
+      "predictions_count": 40,
+      "tx_hash": null,
+      "filecoin_cid": null
+    },
+    {
+      "iteration": 105,
+      "accuracy": 1.0,
+      "prompt_hash": "a1839e2506a06a4f",
+      "timestamp": "2026-03-22T18:08:08.230474+00:00",
+      "predictions_count": 40,
+      "tx_hash": null,
+      "filecoin_cid": null
+    },
+    {
+      "iteration": 106,
+      "accuracy": 1.0,
+      "prompt_hash": "a1839e2506a06a4f",
+      "timestamp": "2026-03-22T18:08:52.988496+00:00",
+      "predictions_count": 40,
+      "tx_hash": null,
+      "filecoin_cid": null
+    },
+    {
+      "iteration": 107,
+      "accuracy": 1.0,
+      "prompt_hash": "a1839e2506a06a4f",
+      "timestamp": "2026-03-22T18:09:35.862886+00:00",
+      "predictions_count": 40,
+      "tx_hash": null,
+      "filecoin_cid": null
+    },
+    {
+      "iteration": 108,
+      "accuracy": 1.0,
+      "prompt_hash": "a1839e2506a06a4f",
+      "timestamp": "2026-03-22T18:10:20.681940+00:00",
+      "predictions_count": 40,
+      "tx_hash": null,
+      "filecoin_cid": null
+    },
+    {
+      "iteration": 109,
+      "accuracy": 1.0,
+      "prompt_hash": "a1839e2506a06a4f",
+      "timestamp": "2026-03-22T18:11:00.461259+00:00",
+      "predictions_count": 40,
+      "tx_hash": null,
+      "filecoin_cid": null
+    },
+    {
+      "agent": "EvolutionProof",
+      "description": "Self-improving agent trust screener - 110 iteration improvement logs",
+      "operator": "0xC71A15Fcb1149254F97059F6cf3f6Ed43990ebd4",
+      "total_iterations": 110,
+      "timestamp": "2026-03-22T18:58:47.594Z",
+      "logs": [
+        {
+          "iteration": 0,
+          "accuracy": 0.55,
+          "prompt_hash": "ca02ca24f2114140",
+          "timestamp": "2026-03-22T16:43:16.141229+00:00",
+          "predictions_count": 40,
+          "tx_hash": null,
+          "filecoin_cid": null
+        },
+        {
+          "iteration": 1,
+          "accuracy": 0.95,
+          "prompt_hash": "78c8ab6064c8cd1a",
+          "timestamp": "2026-03-22T16:44:46.096255+00:00",
+          "predictions_count": 40,
+          "tx_hash": null,
+          "filecoin_cid": null
+        },
+        {
+          "iteration": 2,
+          "accuracy": 1,
+          "prompt_hash": "df2d5b96de8d6650",
+          "timestamp": "2026-03-22T16:46:16.126520+00:00",
+          "predictions_count": 40,
+          "tx_hash": null,
+          "filecoin_cid": null
+        },
+        {
+          "iteration": 3,
+          "accuracy": 1,
+          "prompt_hash": "df2d5b96de8d6650",
+          "timestamp": "2026-03-22T16:47:04.430105+00:00",
+          "predictions_count": 40,
+          "tx_hash": null,
+          "filecoin_cid": null
+        },
+        {
+          "iteration": 4,
+          "accuracy": 1,
+          "prompt_hash": "df2d5b96de8d6650",
+          "timestamp": "2026-03-22T16:47:49.687265+00:00",
+          "predictions_count": 40,
+          "tx_hash": null,
+          "filecoin_cid": null
+        },
+        {
+          "iteration": 5,
+          "accuracy": 0.975,
+          "prompt_hash": "df2d5b96de8d6650",
+          "timestamp": "2026-03-22T16:48:26.168314+00:00",
+          "predictions_count": 40,
+          "tx_hash": null,
+          "filecoin_cid": null
+        },
+        {
+          "iteration": 6,
+          "accuracy": 1,
+          "prompt_hash": "e4bcddfdb822350b",
+          "timestamp": "2026-03-22T16:49:48.317416+00:00",
+          "predictions_count": 40,
+          "tx_hash": null,
+          "filecoin_cid": null
+        },
+        {
+          "iteration": 7,
+          "accuracy": 1,
+          "prompt_hash": "e4bcddfdb822350b",
+          "timestamp": "2026-03-22T16:50:25.572328+00:00",
+          "predictions_count": 40,
+          "tx_hash": null,
+          "filecoin_cid": null
+        },
+        {
+          "iteration": 8,
+          "accuracy": 1,
+          "prompt_hash": "e4bcddfdb822350b",
+          "timestamp": "2026-03-22T16:51:00.854682+00:00",
+          "predictions_count": 40,
+          "tx_hash": null,
+          "filecoin_cid": null
+        },
+        {
+          "iteration": 9,
+          "accuracy": 0.975,
+          "prompt_hash": "e4bcddfdb822350b",
+          "timestamp": "2026-03-22T16:51:38.774864+00:00",
+          "predictions_count": 40,
+          "tx_hash": null,
+          "filecoin_cid": null
+        },
+        {
+          "iteration": 10,
+          "accuracy": 1,
+          "prompt_hash": "e4bcddfdb822350b",
+          "timestamp": "2026-03-22T16:52:58.708014+00:00",
+          "predictions_count": 40,
+          "tx_hash": null,
+          "filecoin_cid": null
+        },
+        {
+          "iteration": 11,
+          "accuracy": 1,
+          "prompt_hash": "e4bcddfdb822350b",
+          "timestamp": "2026-03-22T16:53:38.768316+00:00",
+          "predictions_count": 40,
+          "tx_hash": null,
+          "filecoin_cid": null
+        },
+        {
+          "iteration": 12,
+          "accuracy": 1,
+          "prompt_hash": "e4bcddfdb822350b",
+          "timestamp": "2026-03-22T16:54:17.528307+00:00",
+          "predictions_count": 40,
+          "tx_hash": null,
+          "filecoin_cid": null
+        },
+        {
+          "iteration": 13,
+          "accuracy": 0.975,
+          "prompt_hash": "e4bcddfdb822350b",
+          "timestamp": "2026-03-22T16:54:59.991900+00:00",
+          "predictions_count": 40,
+          "tx_hash": null,
+          "filecoin_cid": null
+        },
+        {
+          "iteration": 14,
+          "accuracy": 1,
+          "prompt_hash": "1934faa09f6bf5d0",
+          "timestamp": "2026-03-22T16:56:18.286968+00:00",
+          "predictions_count": 40,
+          "tx_hash": null,
+          "filecoin_cid": null
+        },
+        {
+          "iteration": 15,
+          "accuracy": 1,
+          "prompt_hash": "1934faa09f6bf5d0",
+          "timestamp": "2026-03-22T16:56:59.647305+00:00",
+          "predictions_count": 40,
+          "tx_hash": null,
+          "filecoin_cid": null
+        },
+        {
+          "iteration": 16,
+          "accuracy": 0.95,
+          "prompt_hash": "1934faa09f6bf5d0",
+          "timestamp": "2026-03-22T16:57:51.238059+00:00",
+          "predictions_count": 40,
+          "tx_hash": null,
+          "filecoin_cid": null
+        },
+        {
+          "iteration": 17,
+          "accuracy": 1,
+          "prompt_hash": "3aac99ad0829ba06",
+          "timestamp": "2026-03-22T16:59:11.947722+00:00",
+          "predictions_count": 40,
+          "tx_hash": null,
+          "filecoin_cid": null
+        },
+        {
+          "iteration": 18,
+          "accuracy": 1,
+          "prompt_hash": "3aac99ad0829ba06",
+          "timestamp": "2026-03-22T16:59:47.528049+00:00",
+          "predictions_count": 40,
+          "tx_hash": null,
+          "filecoin_cid": null
+        },
+        {
+          "iteration": 19,
+          "accuracy": 1,
+          "prompt_hash": "3aac99ad0829ba06",
+          "timestamp": "2026-03-22T17:00:28.014957+00:00",
+          "predictions_count": 40,
+          "tx_hash": null,
+          "filecoin_cid": null
+        },
+        {
+          "iteration": 20,
+          "accuracy": 1,
+          "prompt_hash": "3aac99ad0829ba06",
+          "timestamp": "2026-03-22T17:01:11.954605+00:00",
+          "predictions_count": 40,
+          "tx_hash": null,
+          "filecoin_cid": null
+        },
+        {
+          "iteration": 21,
+          "accuracy": 1,
+          "prompt_hash": "3aac99ad0829ba06",
+          "timestamp": "2026-03-22T17:01:52.875598+00:00",
+          "predictions_count": 40,
+          "tx_hash": null,
+          "filecoin_cid": null
+        },
+        {
+          "iteration": 22,
+          "accuracy": 1,
+          "prompt_hash": "3aac99ad0829ba06",
+          "timestamp": "2026-03-22T17:02:33.371881+00:00",
+          "predictions_count": 40,
+          "tx_hash": null,
+          "filecoin_cid": null
+        },
+        {
+          "iteration": 23,
+          "accuracy": 0.975,
+          "prompt_hash": "3aac99ad0829ba06",
+          "timestamp": "2026-03-22T17:03:17.748202+00:00",
+          "predictions_count": 40,
+          "tx_hash": null,
+          "filecoin_cid": null
+        },
+        {
+          "iteration": 24,
+          "accuracy": 1,
+          "prompt_hash": "c9f88d159424f144",
+          "timestamp": "2026-03-22T17:04:42.595475+00:00",
+          "predictions_count": 40,
+          "tx_hash": null,
+          "filecoin_cid": null
+        },
+        {
+          "iteration": 25,
+          "accuracy": 1,
+          "prompt_hash": "c9f88d159424f144",
+          "timestamp": "2026-03-22T17:05:22.237868+00:00",
+          "predictions_count": 40,
+          "tx_hash": null,
+          "filecoin_cid": null
+        },
+        {
+          "iteration": 26,
+          "accuracy": 1,
+          "prompt_hash": "c9f88d159424f144",
+          "timestamp": "2026-03-22T17:06:02.392097+00:00",
+          "predictions_count": 40,
+          "tx_hash": null,
+          "filecoin_cid": null
+        },
+        {
+          "iteration": 27,
+          "accuracy": 1,
+          "prompt_hash": "c9f88d159424f144",
+          "timestamp": "2026-03-22T17:06:47.653430+00:00",
+          "predictions_count": 40,
+          "tx_hash": null,
+          "filecoin_cid": null
+        },
+        {
+          "iteration": 28,
+          "accuracy": 0.975,
+          "prompt_hash": "c9f88d159424f144",
+          "timestamp": "2026-03-22T17:07:28.946005+00:00",
+          "predictions_count": 40,
+          "tx_hash": null,
+          "filecoin_cid": null
+        },
+        {
+          "iteration": 29,
+          "accuracy": 1,
+          "prompt_hash": "91cb2d56928cbc94",
+          "timestamp": "2026-03-22T17:08:54.804612+00:00",
+          "predictions_count": 40,
+          "tx_hash": null,
+          "filecoin_cid": null
+        },
+        {
+          "iteration": 30,
+          "accuracy": 1,
+          "prompt_hash": "91cb2d56928cbc94",
+          "timestamp": "2026-03-22T17:09:40.924110+00:00",
+          "predictions_count": 40,
+          "tx_hash": null,
+          "filecoin_cid": null
+        },
+        {
+          "iteration": 31,
+          "accuracy": 1,
+          "prompt_hash": "91cb2d56928cbc94",
+          "timestamp": "2026-03-22T17:10:30.705452+00:00",
+          "predictions_count": 40,
+          "tx_hash": null,
+          "filecoin_cid": null
+        },
+        {
+          "iteration": 32,
+          "accuracy": 1,
+          "prompt_hash": "91cb2d56928cbc94",
+          "timestamp": "2026-03-22T17:11:10.682731+00:00",
+          "predictions_count": 40,
+          "tx_hash": null,
+          "filecoin_cid": null
+        },
+        {
+          "iteration": 33,
+          "accuracy": 1,
+          "prompt_hash": "91cb2d56928cbc94",
+          "timestamp": "2026-03-22T17:11:48.182776+00:00",
+          "predictions_count": 40,
+          "tx_hash": null,
+          "filecoin_cid": null
+        },
+        {
+          "iteration": 34,
+          "accuracy": 1,
+          "prompt_hash": "91cb2d56928cbc94",
+          "timestamp": "2026-03-22T17:12:28.370649+00:00",
+          "predictions_count": 40,
+          "tx_hash": null,
+          "filecoin_cid": null
+        },
+        {
+          "iteration": 35,
+          "accuracy": 0.975,
+          "prompt_hash": "91cb2d56928cbc94",
+          "timestamp": "2026-03-22T17:13:11.684142+00:00",
+          "predictions_count": 40,
+          "tx_hash": null,
+          "filecoin_cid": null
+        },
+        {
+          "iteration": 36,
+          "accuracy": 1,
+          "prompt_hash": "859d4f4eff0eef81",
+          "timestamp": "2026-03-22T17:15:01.472200+00:00",
+          "predictions_count": 40,
+          "tx_hash": null,
+          "filecoin_cid": null
+        },
+        {
+          "iteration": 37,
+          "accuracy": 1,
+          "prompt_hash": "859d4f4eff0eef81",
+          "timestamp": "2026-03-22T17:15:40.991638+00:00",
+          "predictions_count": 40,
+          "tx_hash": null,
+          "filecoin_cid": null
+        },
+        {
+          "iteration": 38,
+          "accuracy": 1,
+          "prompt_hash": "859d4f4eff0eef81",
+          "timestamp": "2026-03-22T17:16:23.000953+00:00",
+          "predictions_count": 40,
+          "tx_hash": null,
+          "filecoin_cid": null
+        },
+        {
+          "iteration": 39,
+          "accuracy": 1,
+          "prompt_hash": "859d4f4eff0eef81",
+          "timestamp": "2026-03-22T17:17:02.167696+00:00",
+          "predictions_count": 40,
+          "tx_hash": null,
+          "filecoin_cid": null
+        },
+        {
+          "iteration": 40,
+          "accuracy": 0.975,
+          "prompt_hash": "859d4f4eff0eef81",
+          "timestamp": "2026-03-22T17:17:40.072800+00:00",
+          "predictions_count": 40,
+          "tx_hash": null,
+          "filecoin_cid": null
+        },
+        {
+          "iteration": 41,
+          "accuracy": 1,
+          "prompt_hash": "04e1df2f06bae644",
+          "timestamp": "2026-03-22T17:18:58.839809+00:00",
+          "predictions_count": 40,
+          "tx_hash": null,
+          "filecoin_cid": null
+        },
+        {
+          "iteration": 42,
+          "accuracy": 1,
+          "prompt_hash": "04e1df2f06bae644",
+          "timestamp": "2026-03-22T17:19:43.618258+00:00",
+          "predictions_count": 40,
+          "tx_hash": null,
+          "filecoin_cid": null
+        },
+        {
+          "iteration": 43,
+          "accuracy": 1,
+          "prompt_hash": "04e1df2f06bae644",
+          "timestamp": "2026-03-22T17:20:25.570534+00:00",
+          "predictions_count": 40,
+          "tx_hash": null,
+          "filecoin_cid": null
+        },
+        {
+          "iteration": 44,
+          "accuracy": 1,
+          "prompt_hash": "04e1df2f06bae644",
+          "timestamp": "2026-03-22T17:21:04.837334+00:00",
+          "predictions_count": 40,
+          "tx_hash": null,
+          "filecoin_cid": null
+        },
+        {
+          "iteration": 45,
+          "accuracy": 1,
+          "prompt_hash": "04e1df2f06bae644",
+          "timestamp": "2026-03-22T17:21:40.635520+00:00",
+          "predictions_count": 40,
+          "tx_hash": null,
+          "filecoin_cid": null
+        },
+        {
+          "iteration": 46,
+          "accuracy": 1,
+          "prompt_hash": "04e1df2f06bae644",
+          "timestamp": "2026-03-22T17:22:20.691394+00:00",
+          "predictions_count": 40,
+          "tx_hash": null,
+          "filecoin_cid": null
+        },
+        {
+          "iteration": 47,
+          "accuracy": 1,
+          "prompt_hash": "04e1df2f06bae644",
+          "timestamp": "2026-03-22T17:23:06.317478+00:00",
+          "predictions_count": 40,
+          "tx_hash": null,
+          "filecoin_cid": null
+        },
+        {
+          "iteration": 48,
+          "accuracy": 1,
+          "prompt_hash": "04e1df2f06bae644",
+          "timestamp": "2026-03-22T17:23:49.588150+00:00",
+          "predictions_count": 40,
+          "tx_hash": null,
+          "filecoin_cid": null
+        },
+        {
+          "iteration": 49,
+          "accuracy": 1,
+          "prompt_hash": "04e1df2f06bae644",
+          "timestamp": "2026-03-22T17:24:30.962984+00:00",
+          "predictions_count": 40,
+          "tx_hash": null,
+          "filecoin_cid": null
+        },
+        {
+          "iteration": 50,
+          "accuracy": 1,
+          "prompt_hash": "04e1df2f06bae644",
+          "timestamp": "2026-03-22T17:25:14.307783+00:00",
+          "predictions_count": 40,
+          "tx_hash": null,
+          "filecoin_cid": null
+        },
+        {
+          "iteration": 51,
+          "accuracy": 0.975,
+          "prompt_hash": "04e1df2f06bae644",
+          "timestamp": "2026-03-22T17:25:56.098320+00:00",
+          "predictions_count": 40,
+          "tx_hash": null,
+          "filecoin_cid": null
+        },
+        {
+          "iteration": 52,
+          "accuracy": 1,
+          "prompt_hash": "f336da576acc7407",
+          "timestamp": "2026-03-22T17:27:25.826624+00:00",
+          "predictions_count": 40,
+          "tx_hash": null,
+          "filecoin_cid": null
+        },
+        {
+          "iteration": 53,
+          "accuracy": 1,
+          "prompt_hash": "f336da576acc7407",
+          "timestamp": "2026-03-22T17:28:11.695033+00:00",
+          "predictions_count": 40,
+          "tx_hash": null,
+          "filecoin_cid": null
+        },
+        {
+          "iteration": 54,
+          "accuracy": 1,
+          "prompt_hash": "f336da576acc7407",
+          "timestamp": "2026-03-22T17:28:53.269120+00:00",
+          "predictions_count": 40,
+          "tx_hash": null,
+          "filecoin_cid": null
+        },
+        {
+          "iteration": 55,
+          "accuracy": 0.975,
+          "prompt_hash": "f336da576acc7407",
+          "timestamp": "2026-03-22T17:29:29.491354+00:00",
+          "predictions_count": 40,
+          "tx_hash": null,
+          "filecoin_cid": null
+        },
+        {
+          "iteration": 56,
+          "accuracy": 1,
+          "prompt_hash": "c4eac61007e9a6cb",
+          "timestamp": "2026-03-22T17:30:55.406734+00:00",
+          "predictions_count": 40,
+          "tx_hash": null,
+          "filecoin_cid": null
+        },
+        {
+          "iteration": 57,
+          "accuracy": 1,
+          "prompt_hash": "c4eac61007e9a6cb",
+          "timestamp": "2026-03-22T17:31:41.403057+00:00",
+          "predictions_count": 40,
+          "tx_hash": null,
+          "filecoin_cid": null
+        },
+        {
+          "iteration": 58,
+          "accuracy": 1,
+          "prompt_hash": "c4eac61007e9a6cb",
+          "timestamp": "2026-03-22T17:32:23.520631+00:00",
+          "predictions_count": 40,
+          "tx_hash": null,
+          "filecoin_cid": null
+        },
+        {
+          "iteration": 59,
+          "accuracy": 1,
+          "prompt_hash": "c4eac61007e9a6cb",
+          "timestamp": "2026-03-22T17:33:06.038344+00:00",
+          "predictions_count": 40,
+          "tx_hash": null,
+          "filecoin_cid": null
+        },
+        {
+          "iteration": 60,
+          "accuracy": 1,
+          "prompt_hash": "c4eac61007e9a6cb",
+          "timestamp": "2026-03-22T17:33:46.352501+00:00",
+          "predictions_count": 40,
+          "tx_hash": null,
+          "filecoin_cid": null
+        },
+        {
+          "iteration": 61,
+          "accuracy": 1,
+          "prompt_hash": "c4eac61007e9a6cb",
+          "timestamp": "2026-03-22T17:34:22.743376+00:00",
+          "predictions_count": 40,
+          "tx_hash": null,
+          "filecoin_cid": null
+        },
+        {
+          "iteration": 62,
+          "accuracy": 1,
+          "prompt_hash": "c4eac61007e9a6cb",
+          "timestamp": "2026-03-22T17:35:02.552073+00:00",
+          "predictions_count": 40,
+          "tx_hash": null,
+          "filecoin_cid": null
+        },
+        {
+          "iteration": 63,
+          "accuracy": 1,
+          "prompt_hash": "c4eac61007e9a6cb",
+          "timestamp": "2026-03-22T17:35:49.842750+00:00",
+          "predictions_count": 40,
+          "tx_hash": null,
+          "filecoin_cid": null
+        },
+        {
+          "iteration": 64,
+          "accuracy": 1,
+          "prompt_hash": "c4eac61007e9a6cb",
+          "timestamp": "2026-03-22T17:36:30.108493+00:00",
+          "predictions_count": 40,
+          "tx_hash": null,
+          "filecoin_cid": null
+        },
+        {
+          "iteration": 65,
+          "accuracy": 1,
+          "prompt_hash": "c4eac61007e9a6cb",
+          "timestamp": "2026-03-22T17:37:19.621671+00:00",
+          "predictions_count": 40,
+          "tx_hash": null,
+          "filecoin_cid": null
+        },
+        {
+          "iteration": 66,
+          "accuracy": 1,
+          "prompt_hash": "c4eac61007e9a6cb",
+          "timestamp": "2026-03-22T17:38:00.825850+00:00",
+          "predictions_count": 40,
+          "tx_hash": null,
+          "filecoin_cid": null
+        },
+        {
+          "iteration": 67,
+          "accuracy": 1,
+          "prompt_hash": "c4eac61007e9a6cb",
+          "timestamp": "2026-03-22T17:38:38.523533+00:00",
+          "predictions_count": 40,
+          "tx_hash": null,
+          "filecoin_cid": null
+        },
+        {
+          "iteration": 68,
+          "accuracy": 1,
+          "prompt_hash": "c4eac61007e9a6cb",
+          "timestamp": "2026-03-22T17:39:19.736645+00:00",
+          "predictions_count": 40,
+          "tx_hash": null,
+          "filecoin_cid": null
+        },
+        {
+          "iteration": 69,
+          "accuracy": 1,
+          "prompt_hash": "c4eac61007e9a6cb",
+          "timestamp": "2026-03-22T17:40:14.175062+00:00",
+          "predictions_count": 40,
+          "tx_hash": null,
+          "filecoin_cid": null
+        },
+        {
+          "iteration": 70,
+          "accuracy": 1,
+          "prompt_hash": "c4eac61007e9a6cb",
+          "timestamp": "2026-03-22T17:40:49.854610+00:00",
+          "predictions_count": 40,
+          "tx_hash": null,
+          "filecoin_cid": null
+        },
+        {
+          "iteration": 71,
+          "accuracy": 1,
+          "prompt_hash": "c4eac61007e9a6cb",
+          "timestamp": "2026-03-22T17:41:34.598699+00:00",
+          "predictions_count": 40,
+          "tx_hash": null,
+          "filecoin_cid": null
+        },
+        {
+          "iteration": 72,
+          "accuracy": 1,
+          "prompt_hash": "c4eac61007e9a6cb",
+          "timestamp": "2026-03-22T17:42:17.782312+00:00",
+          "predictions_count": 40,
+          "tx_hash": null,
+          "filecoin_cid": null
+        },
+        {
+          "iteration": 73,
+          "accuracy": 1,
+          "prompt_hash": "c4eac61007e9a6cb",
+          "timestamp": "2026-03-22T17:43:00.197584+00:00",
+          "predictions_count": 40,
+          "tx_hash": null,
+          "filecoin_cid": null
+        },
+        {
+          "iteration": 74,
+          "accuracy": 1,
+          "prompt_hash": "c4eac61007e9a6cb",
+          "timestamp": "2026-03-22T17:43:38.649836+00:00",
+          "predictions_count": 40,
+          "tx_hash": null,
+          "filecoin_cid": null
+        },
+        {
+          "iteration": 75,
+          "accuracy": 1,
+          "prompt_hash": "c4eac61007e9a6cb",
+          "timestamp": "2026-03-22T17:44:18.892630+00:00",
+          "predictions_count": 40,
+          "tx_hash": null,
+          "filecoin_cid": null
+        },
+        {
+          "iteration": 76,
+          "accuracy": 1,
+          "prompt_hash": "c4eac61007e9a6cb",
+          "timestamp": "2026-03-22T17:44:58.532549+00:00",
+          "predictions_count": 40,
+          "tx_hash": null,
+          "filecoin_cid": null
+        },
+        {
+          "iteration": 77,
+          "accuracy": 1,
+          "prompt_hash": "c4eac61007e9a6cb",
+          "timestamp": "2026-03-22T17:45:36.650669+00:00",
+          "predictions_count": 40,
+          "tx_hash": null,
+          "filecoin_cid": null
+        },
+        {
+          "iteration": 78,
+          "accuracy": 1,
+          "prompt_hash": "c4eac61007e9a6cb",
+          "timestamp": "2026-03-22T17:46:12.488286+00:00",
+          "predictions_count": 40,
+          "tx_hash": null,
+          "filecoin_cid": null
+        },
+        {
+          "iteration": 79,
+          "accuracy": 1,
+          "prompt_hash": "c4eac61007e9a6cb",
+          "timestamp": "2026-03-22T17:46:51.313535+00:00",
+          "predictions_count": 40,
+          "tx_hash": null,
+          "filecoin_cid": null
+        },
+        {
+          "iteration": 80,
+          "accuracy": 1,
+          "prompt_hash": "c4eac61007e9a6cb",
+          "timestamp": "2026-03-22T17:47:27.267939+00:00",
+          "predictions_count": 40,
+          "tx_hash": null,
+          "filecoin_cid": null
+        },
+        {
+          "iteration": 81,
+          "accuracy": 1,
+          "prompt_hash": "c4eac61007e9a6cb",
+          "timestamp": "2026-03-22T17:48:13.417336+00:00",
+          "predictions_count": 40,
+          "tx_hash": null,
+          "filecoin_cid": null
+        },
+        {
+          "iteration": 82,
+          "accuracy": 1,
+          "prompt_hash": "c4eac61007e9a6cb",
+          "timestamp": "2026-03-22T17:48:50.615804+00:00",
+          "predictions_count": 40,
+          "tx_hash": null,
+          "filecoin_cid": null
+        },
+        {
+          "iteration": 83,
+          "accuracy": 1,
+          "prompt_hash": "c4eac61007e9a6cb",
+          "timestamp": "2026-03-22T17:49:44.235726+00:00",
+          "predictions_count": 40,
+          "tx_hash": null,
+          "filecoin_cid": null
+        },
+        {
+          "iteration": 84,
+          "accuracy": 1,
+          "prompt_hash": "c4eac61007e9a6cb",
+          "timestamp": "2026-03-22T17:50:23.995825+00:00",
+          "predictions_count": 40,
+          "tx_hash": null,
+          "filecoin_cid": null
+        },
+        {
+          "iteration": 85,
+          "accuracy": 1,
+          "prompt_hash": "c4eac61007e9a6cb",
+          "timestamp": "2026-03-22T17:51:05.160748+00:00",
+          "predictions_count": 40,
+          "tx_hash": null,
+          "filecoin_cid": null
+        },
+        {
+          "iteration": 86,
+          "accuracy": 0.975,
+          "prompt_hash": "c4eac61007e9a6cb",
+          "timestamp": "2026-03-22T17:51:51.555217+00:00",
+          "predictions_count": 40,
+          "tx_hash": null,
+          "filecoin_cid": null
+        },
+        {
+          "iteration": 87,
+          "accuracy": 1,
+          "prompt_hash": "47fad7dff2604b5d",
+          "timestamp": "2026-03-22T17:53:12.018784+00:00",
+          "predictions_count": 40,
+          "tx_hash": null,
+          "filecoin_cid": null
+        },
+        {
+          "iteration": 88,
+          "accuracy": 1,
+          "prompt_hash": "47fad7dff2604b5d",
+          "timestamp": "2026-03-22T17:53:50.305666+00:00",
+          "predictions_count": 40,
+          "tx_hash": null,
+          "filecoin_cid": null
+        },
+        {
+          "iteration": 89,
+          "accuracy": 0.975,
+          "prompt_hash": "47fad7dff2604b5d",
+          "timestamp": "2026-03-22T17:54:32.056549+00:00",
+          "predictions_count": 40,
+          "tx_hash": null,
+          "filecoin_cid": null
+        },
+        {
+          "iteration": 90,
+          "accuracy": 1,
+          "prompt_hash": "71f5f2791a896056",
+          "timestamp": "2026-03-22T17:55:56.384348+00:00",
+          "predictions_count": 40,
+          "tx_hash": null,
+          "filecoin_cid": null
+        },
+        {
+          "iteration": 91,
+          "accuracy": 1,
+          "prompt_hash": "71f5f2791a896056",
+          "timestamp": "2026-03-22T17:56:36.356366+00:00",
+          "predictions_count": 40,
+          "tx_hash": null,
+          "filecoin_cid": null
+        },
+        {
+          "iteration": 92,
+          "accuracy": 0.975,
+          "prompt_hash": "71f5f2791a896056",
+          "timestamp": "2026-03-22T17:57:12.611967+00:00",
+          "predictions_count": 40,
+          "tx_hash": null,
+          "filecoin_cid": null
+        },
+        {
+          "iteration": 93,
+          "accuracy": 1,
+          "prompt_hash": "afcfb2de40738fd9",
+          "timestamp": "2026-03-22T17:58:37.958298+00:00",
+          "predictions_count": 40,
+          "tx_hash": null,
+          "filecoin_cid": null
+        },
+        {
+          "iteration": 94,
+          "accuracy": 1,
+          "prompt_hash": "afcfb2de40738fd9",
+          "timestamp": "2026-03-22T17:59:18.564153+00:00",
+          "predictions_count": 40,
+          "tx_hash": null,
+          "filecoin_cid": null
+        },
+        {
+          "iteration": 95,
+          "accuracy": 1,
+          "prompt_hash": "afcfb2de40738fd9",
+          "timestamp": "2026-03-22T17:59:57.679401+00:00",
+          "predictions_count": 40,
+          "tx_hash": null,
+          "filecoin_cid": null
+        },
+        {
+          "iteration": 96,
+          "accuracy": 1,
+          "prompt_hash": "afcfb2de40738fd9",
+          "timestamp": "2026-03-22T18:00:34.388875+00:00",
+          "predictions_count": 40,
+          "tx_hash": null,
+          "filecoin_cid": null
+        },
+        {
+          "iteration": 97,
+          "accuracy": 1,
+          "prompt_hash": "afcfb2de40738fd9",
+          "timestamp": "2026-03-22T18:01:08.928404+00:00",
+          "predictions_count": 40,
+          "tx_hash": null,
+          "filecoin_cid": null
+        },
+        {
+          "iteration": 98,
+          "accuracy": 1,
+          "prompt_hash": "afcfb2de40738fd9",
+          "timestamp": "2026-03-22T18:01:49.961666+00:00",
+          "predictions_count": 40,
+          "tx_hash": null,
+          "filecoin_cid": null
+        },
+        {
+          "iteration": 99,
+          "accuracy": 0.975,
+          "prompt_hash": "afcfb2de40738fd9",
+          "timestamp": "2026-03-22T18:02:29.167367+00:00",
+          "predictions_count": 40,
+          "tx_hash": null,
+          "filecoin_cid": null
+        },
+        {
+          "iteration": 100,
+          "accuracy": 1,
+          "prompt_hash": "32a154458fee344a",
+          "timestamp": "2026-03-22T18:03:58.556944+00:00",
+          "predictions_count": 40,
+          "tx_hash": null,
+          "filecoin_cid": null
+        },
+        {
+          "iteration": 101,
+          "accuracy": 1,
+          "prompt_hash": "32a154458fee344a",
+          "timestamp": "2026-03-22T18:04:36.524853+00:00",
+          "predictions_count": 40,
+          "tx_hash": null,
+          "filecoin_cid": null
+        },
+        {
+          "iteration": 102,
+          "accuracy": 1,
+          "prompt_hash": "32a154458fee344a",
+          "timestamp": "2026-03-22T18:05:22.795702+00:00",
+          "predictions_count": 40,
+          "tx_hash": null,
+          "filecoin_cid": null
+        },
+        {
+          "iteration": 103,
+          "accuracy": 1,
+          "prompt_hash": "32a154458fee344a",
+          "timestamp": "2026-03-22T18:06:04.013580+00:00",
+          "predictions_count": 40,
+          "tx_hash": null,
+          "filecoin_cid": null
+        },
+        {
+          "iteration": 104,
+          "accuracy": 0.975,
+          "prompt_hash": "32a154458fee344a",
+          "timestamp": "2026-03-22T18:06:41.033790+00:00",
+          "predictions_count": 40,
+          "tx_hash": null,
+          "filecoin_cid": null
+        },
+        {
+          "iteration": 105,
+          "accuracy": 1,
+          "prompt_hash": "a1839e2506a06a4f",
+          "timestamp": "2026-03-22T18:08:08.230474+00:00",
+          "predictions_count": 40,
+          "tx_hash": null,
+          "filecoin_cid": null
+        },
+        {
+          "iteration": 106,
+          "accuracy": 1,
+          "prompt_hash": "a1839e2506a06a4f",
+          "timestamp": "2026-03-22T18:08:52.988496+00:00",
+          "predictions_count": 40,
+          "tx_hash": null,
+          "filecoin_cid": null
+        },
+        {
+          "iteration": 107,
+          "accuracy": 1,
+          "prompt_hash": "a1839e2506a06a4f",
+          "timestamp": "2026-03-22T18:09:35.862886+00:00",
+          "predictions_count": 40,
+          "tx_hash": null,
+          "filecoin_cid": null
+        },
+        {
+          "iteration": 108,
+          "accuracy": 1,
+          "prompt_hash": "a1839e2506a06a4f",
+          "timestamp": "2026-03-22T18:10:20.681940+00:00",
+          "predictions_count": 40,
+          "tx_hash": null,
+          "filecoin_cid": null
+        },
+        {
+          "iteration": 109,
+          "accuracy": 1,
+          "prompt_hash": "a1839e2506a06a4f",
+          "timestamp": "2026-03-22T18:11:00.461259+00:00",
+          "predictions_count": 40,
+          "tx_hash": null,
+          "filecoin_cid": null
+        }
+      ]
+    }
+  ]
+}
