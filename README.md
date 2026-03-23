@@ -66,6 +66,8 @@ tests/       - Test suite
 - 3 independent teams integrated AgentProof oracle during the hackathon: Covfefe (trust scoring + GitHub badge), Redemption Arc (trust/risk endpoints + badge), and FloorEscrow/Bogdanoff (counterparty trust checks + feedback loop, partner tier)
 - Both EvolutionProof and AgentProof Recruiter GitHub repos carry AgentProof "Powered by" badges
 - 110 Filecoin CIDs map 1:1 to agent improvement iterations - the storage IS the proof mechanism, not just a data store
+- The dashboard shows "local:" prefixed CIDs for recent iterations. These are local content hashes generated before Filecoin upload. The actual Filecoin CIDs are stored in filecoin_cid.json. The master CID containing all 110 verified iterations is: QmWVcV45rcJXFDWvgEL18TWdAqH6jZVk1VcrqEx3tdxxeA
+- Verify all iteration logs directly: https://gateway.lighthouse.storage/ipfs/QmWVcV45rcJXFDWvgEL18TWdAqH6jZVk1VcrqEx3tdxxeA
 - Celo mainnet treasury contract deployed with 3 verifiable transactions on Celoscan
 - ERC-8004 identity registered through AgentProof oracle
 
