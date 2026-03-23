@@ -60,6 +60,15 @@ scripts/     - Entry points and setup scripts
 tests/       - Test suite
 ```
 
+## Hackathon Context
+
+- Built solo over the weekend of March 21-22 2026 during The Synthesis hackathon
+- 3 independent teams integrated AgentProof oracle during the hackathon: Covfefe (trust scoring + GitHub badge), Redemption Arc (trust/risk endpoints + badge), and FloorEscrow/Bogdanoff (counterparty trust checks + feedback loop, partner tier)
+- Both EvolutionProof and AgentProof Recruiter GitHub repos carry AgentProof "Powered by" badges
+- 110 Filecoin CIDs map 1:1 to agent improvement iterations - the storage IS the proof mechanism, not just a data store
+- Celo mainnet treasury contract deployed with 3 verifiable transactions on Celoscan
+- ERC-8004 identity registered through AgentProof oracle
+
 ## License
 
 MIT
